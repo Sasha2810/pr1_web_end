@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level2 Math</title>
+    <link rel="stylesheet" href="../adaptiv.css">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="gradient">
+            <img src="../img/gradient6.png" class="gradient_img1" alt="">
+        </div>
+
+        <div class="header-nav">
+            <nav class="header-nav1">
+                    <div class="navigation nav">
+                        <a href="../index.html"><div class="work">меню</div></a>
+                    </div>
+               
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="questions">
+
+        <div class="name_level">
+            <h2 class="level">Level2 Math</h2>
+        </div>
+
+        <div class="time">
+            <div class="fast_time">
+                <div class="fast_block"></div>
+            </div>
+            <div class="timer_item timer"></div>
+        </div>
+        
+        <div class="number-questions">
+            <div class="about_num">Номера заданий:</div>
+            <div class="num_mobile">
+                <div class="maths-number first_que_math  first_math active" data-id="first_math">1</div>
+                <div class="maths-number second_que_math second_math" data-id="second_math">2</div>
+                <div class="maths-number third_que_math third_math" data-id="third_math">3</div>
+                <div class="maths-number fourth_que_math fourth_math" data-id="fourth_math">4</div>
+                <div class="maths-number fiveth_que_math fiveth_math" data-id="fiveth_math">5</div>
+                <div class="maths-number sixth_que_math sixth_math" data-id="sixth_math">6</div>
+            </div>
+            <div class="maths-number fiveth_que_math check_math" onclick="second_page()">проверить</div>
+            
+        </div>
+
+        <div class="content-questions">
+            <div class="maths-questions first_math active">Из пункта А в пункт В, на расстоянии 100 км, отправился автобус со скоростью 36 км/ч. Как только автобус проехал пятую часть пути, вслед за ним выехала машина. Они прибыли одновременно. Найдите скорость машины в км/ч.<input type="text" class="input_answer first_input" placeholder="Введите ответ:"></div>
+            <div class="maths-questions second_math">Если бы у вас была только одна спичка, и вы вошли в комнату, где есть керосиновая лампа, камин и газовая плита, что бы вы зажгли первым делом?<input type="text" class="input_answer second_input" placeholder="Введите ответ:"></div>
+            <div class="maths-questions third_math">В классе 32 человека. В олимпиаде по математике приняли участие 75% всех учащихся класса, при этом 25% участников стали призёрами. Сколько учеников класса стали призёрами?<input type="text" class="input_answer third_input" placeholder="Введите ответ:"></div>
+            <div class="maths-questions fourth_math">Клиент взял в банке кредит в размере 50 000 р. на 5 лет под 20% годовых. Какую сумму он должен вернуть в банк в конце срока, если проценты начисляются ежегодно на текущую сумму долга и весь кредит с процентами возвращается в банк после срока?<input type="text" class="input_answer fourth_input" placeholder="Введите ответ:"></div>
+            <div class="maths-questions fiveth_math">Известна история о маленьком мальчике, который, получив новогодний подарок, попросил маму: “Сними, пожалуйста, крышку. Я хочу подарок погладить”. Что же это за подарок? <input type="text" class="input_answer fiveth_input" placeholder="Введите ответ:"></div>
+            <div class="maths-questions sixth_math">Найдите площадь выпуклого четырёхугольника с диагоналями 3 и 4, если отрезки, соединяющие середины его противоположных сторон, равны. <input type="text" class="input_answer sixth_input" placeholder="Введите ответ:"></div>
+            <div class="maths-questions check_math"><p>Поздравляю, вы решили тестирование на <span class="result_math1"></span> из 6</div>
+            
+        </div>
+
+        <div class="razdel_calc">
+            <h2 class="razdel_h2_calc">При решении задач данного предмета вам может понадобиться калькулятор:</h2>
+        </div>
+    
+        <section class="calc_container grid">
+    
+            <div class="vvod">
+                <p>0</p>
+            </div>
+    
+            <div class="calc">
+                <button class="btn ac ser ">C</button>
+                <button class="znak btn plus-minus ser" onclick="glav()">+-</button>
+                <button id="znak" class="znak btn percent ser" onclick="glav()">%</button>
+                <button id="znak" class="znak btn del orange" onclick="glav()">//</button>
+                <button class="btn numbers seven ">7</button>
+                <button class="btn numbers eight ">8</button>
+                <button class="btn numbers nine ">9</button>
+                <button id="znak" class="znak btn umn orange" onclick="glav()">x</button>
+                <button class="btn numbers four ">4</button>
+                <button class="btn numbers five ">5</button>
+                <button class="btn numbers six ">6</button>
+                <button id="znak" class="znak btn minus orange" onclick="glav()">-</button>
+                <button class="btn numbers one ">1</button>
+                <button class="btn numbers two ">2</button>
+                <button class="btn numbers three ">3</button>
+                <button id="znak" class="znak btn plus orange" onclick="glav()">+</button>
+                <button class="btn numbers zero ">0</button>
+                <button class="znak btn zap">,</button>
+                <button class="znak btn answer orange">=</button>
+            </div>
+        </section>
+        
+    </section>
+
+    
+
+    <script src="maths.js"></script>
+</body>
+</html>

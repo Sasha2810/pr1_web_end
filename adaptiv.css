@@ -1,0 +1,318 @@
+
+@media all and (max-width: 1100px) {
+    header .main_menu_header  {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+        z-index: 31;
+        float: right;
+        width: 70px;
+        margin: 20px 20px;
+        color: rgb(250, 8, 8);
+    }
+    .burger-menu>span {
+        background-color: rgb(91, 84, 84);
+    }
+
+    .gradient .gradient_img6 {
+        display: none;
+    }
+
+    .main-inf .containers {
+        display: flex;    
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 110px;
+        margin: auto;
+        margin-top: none;
+    }
+
+
+    .questions {
+        padding-top: none;
+    }
+
+    .gradient_img7, .gradient_img2, .gradient_img5, .gradient_img4{
+        display: none;
+    }
+    
+    .gradient .gradient_img1 {
+        position: absolute;
+        width: 200px;
+        height: 90px;
+    }
+
+    .main-inf .hello-h1 {
+        display: flex;
+        margin-left: 30px;
+        font-size: 40px;
+    }
+
+    .main-inf .about-h1 {
+        display: flex;
+        margin-left: 30px;
+        font-size: 22px;
+
+    }
+
+    .hello-menu {
+        padding-bottom: -50px;
+    }
+
+    .img_think_div .img_think {
+        width: 280px;
+        padding-right: 50px;
+        padding-top: 50px;
+    }
+
+    .img_think_div .think_text {
+        position: absolute;
+        left: 4100%;
+        top: 200%;
+        line-height: 100px;
+        background-color: #7bd0f1;
+        border: 3px solid #327c9c;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        -webkit-box-shadow: 2px 2px 4px #888;
+        -moz-box-shadow: 2px 2px 4px #888;
+        box-shadow: 2px 2px 4px #4475ac;
+        cursor: pointer;
+        width: 170px;
+        height: 100px;
+        font-size: 16px;
+    }
+
+    .img_think_div .think_text::before {
+        content: ''; 
+        position: absolute; 
+        width: 0; 
+        height: 0; 
+        left: 20px; 
+        top: 100px; 
+        border: 20px solid; 
+        border-color: #3d7f9b transparent transparent #3d7f9b; 
+    }
+
+    .how_work {
+        padding-bottom: 50px;
+    }
+    
+    .main_how_work .how_work_h1 {
+        font-size: 30px;
+        margin: 8px;
+        padding-top: 150px;
+    }
+
+    .how_work_ol_div .how_work_ol {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        width: 300px;
+        height: 220px;
+        font-size: 10px;
+        padding: 10px 20px;
+    }
+
+    .how_work_ol .how_work_li {
+        text-decoration: none;
+        padding: 3px 3px;
+        font-size: 20px;
+    }
+
+    .about_us .about_us_div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+    }
+
+    .about_us .about_us_img {
+        width: 300px;
+        margin: auto;
+    }
+
+    .about_us_div .about_us_p {
+        display: flex;
+        width: 90%;
+    }
+
+    .questions .number-questions {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .number-questions .about_num, .check_math {
+        font-size: 27px;
+        
+        margin-left: 30px;
+    }
+
+    .number-questions .num_mobile {
+        display: flex;
+        flex-direction: row;
+        margin: 8px;
+    }
+
+    .time .fast_time {
+        display: flex;
+        width: 250px;
+        height: 15px;
+        margin: 50px 0px 10px;
+        border-radius: 20px;
+        background-color: #ffe8e8;
+        
+    }
+
+    .time .timer_item {
+        margin-top: 42px;
+        font-size: 30px;
+        font-size: 24px;
+    }
+
+    .questions .content-questions .maths-questions {
+        font-size: 22px;
+        margin: 10px 54px 0px 0px ;
+        height: 320px;
+        width: 95%;
+
+    }
+
+    .content-questions .input_answer {
+        display: block;
+        margin-top: 8px;
+        margin-left: 10px;
+        width: 240px;
+        height: 30px;
+        font-size: 20px;
+    }
+}
+
+
+@media all and (max-width: 670px) {
+    .img_think_div .think_text {
+        position: absolute;
+        left: 0;
+        top: 290%;
+        line-height: 100px;
+        background-color: #7bd0f1;
+        border: 3px solid #327c9c;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        -webkit-box-shadow: 2px 2px 4px #888;
+        -moz-box-shadow: 2px 2px 4px #888;
+        box-shadow: 2px 2px 4px #4475ac;
+        cursor: pointer;
+        width: 170px;
+        height: 100px;
+        font-size: 16px;
+    }
+
+    
+
+    .containers .container:hover {
+        width: 260px;
+        transform: translate(3.2);
+    }
+    
+    .number-questions{
+        display: flex;
+        margin: 5px;
+        font-size: 22px;
+    }
+
+    .levels_maths_div .levels_maths_h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 35px;
+    }
+   
+    .level_buttons_math .levels {
+        text-align: center;
+        font-size: 18px;
+        width: 220px;
+    }
+
+    .gradient_img1 {
+        position: absolute;
+        width: 250px;
+        height: 10px;
+    } 
+}
+
+@media all and (max-width: 400px) {
+    .img_think_div .think_text {
+        position: absolute;
+        left: 42%;
+        top: 221%;
+    }
+
+    .footer-div .footer-h1 {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-div .footer-h1 {
+        font-size: 18px;
+    }
+
+    .footer-div .img_contact img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 40px;
+        margin: 7px;
+    }
+
+}
+
+@media all and (max-width: 350px) {
+    .img_think_div .think_text {
+        position: absolute;
+        left: 35%;
+        top: 220%;
+    }
+    .how_work_ol_div .how_work_ol {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        width: 270px;
+        height: 180px;
+        font-size: 10px;
+        padding: 15px;
+    } 
+    
+    .how_work_ol .how_work_li {
+        text-decoration: none;
+        padding: 3px 3px;
+        font-size: 16px;
+    }
+
+    .containers .container {
+        text-align: center;
+        width: 210px;
+        height: 160px;
+        font-size: 19px;
+    }
+
+    .questions .calc_container {
+        width: 260px;
+        height: 490px;
+    }
+    .calc_container .calc {
+        width: 230px;
+        height: 250px;
+        display: grid;
+        gap: 8px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
